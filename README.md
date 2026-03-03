@@ -15,7 +15,7 @@ Data preparation and output analyses require a standard computer. Calculating ou
 
 The folder `Scripts` contains code to run analyses and reproduce figures in the manuscript and supplements. Files starting with 'prep_' contain data preparation steps for model inputs. 'main_' files are used to calculate outcome measures & analyse results including plots and are associated with "functions_" files.
 
-The folder `Data` contains input data used in Scripts.
+The folder `Data` only contains the posterior distributions for the input parameters. All other input data can be created from the steps and data described below. 
 
 ## Data preparation
 The model raster is created from _prep_createRaster.R_. Bird abundance, mosquito abundance, and temperature data are prepared in _prep_inputData_ with the associated function file _functions_inputData.R_.
